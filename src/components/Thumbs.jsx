@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {BsFillHandThumbsUpFill} from 'react-icons/bs'
 
 
 
@@ -24,7 +24,7 @@ function Thumbs(){
     <>
     <div style={estilo} onClick={clica}></div>
     
-    <FontAwesomeIcon icon="fa-solid fa-thumbs-up" />
+    <BsFillHandThumbsUpFill/>
     </>
         )
 }
