@@ -2,6 +2,7 @@ import './App.css';
 import Titulo from './components/Titulo.jsx';
 import Clics from './components/Clics';
 import Sorteo from './components/Sorteo';
+import Thumbs from './components/Thumbs';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Titulo texto="react" color="green" />
     <Clics />
     <Sorteo />
+    <Thumbs/>
   </>
   )
 }
